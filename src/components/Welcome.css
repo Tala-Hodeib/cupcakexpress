@@ -1,0 +1,60 @@
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.PhotoWelcome {
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+    filter: blur(2px);
+    -webkit-filter: blur(6px);
+    background-image: url("./welcome.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+  position:relative;
+
+}
+
+.slogan {
+    font-family:'Pacifico', cursive;
+    font-size: 100px;
+    color: #FFAFCC;
+    -webkit-text-stroke: 2px white;
+    line-height: 1;
+    animation: neon 2s ease-in-out infinite alternate;
+    top: 50%;
+    position: absolute;
+    padding-left: 100px;
+  }
+
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px #9980a8,
+    0 0 12px #9980a8,
+    0 0 21px #9980a8,
+    0 0 34px #9980a8,
+    0 0 54px #9980a8;
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px #ffff,
+    0 0 12px #ffff,
+    0 0 22px #ffff,
+    0 0 38px #ffff,
+    0 0 60px #ffff;
+  }
+
+}
+
+
+
+

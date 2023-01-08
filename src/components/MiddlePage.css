@@ -1,0 +1,25 @@
+.CenterPart {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 70px;
+}
+
+
+.IcingPhoto {
+    height: 350px;
+    width: 190px;
+    border: 2px solid #BDE0FE;
+    padding: 20px;
+
+}
+
+.IcingPhoto2 {
+    width: 450px;
+    height: 320px;
+    box-shadow: 100px 150px #BDE0FE;
+
+}
+.GoDown {
+    padding-top: 50px;
+}
