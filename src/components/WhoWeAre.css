@@ -1,8 +1,8 @@
 .CenterPart {
     display: flex;
-    justify-content: center;
     gap: 30px;
-    padding-top: 70px;
+    transform: translate(-5%,-5%);
+  -ms-transform: translate(-50%,-50%);
 }
 
 
@@ -20,6 +20,20 @@
     box-shadow: 100px 150px #BDE0FE;
 
 }
+
 .GoDown {
     padding-top: 50px;
+}
+
+.whoAreWeText {
+   
+}
+
+.title {
+    display: block;
+    font-size: 80px;
+    font-family:'Pacifico', cursive;
+    color: #FFAFCC;
+    -webkit-text-stroke: 2px white;
+    padding-top: 20%;
 }
